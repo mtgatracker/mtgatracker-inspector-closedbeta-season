@@ -5,7 +5,7 @@ var cookies = require('browser-cookies');
 var pagePrefix = '';
 if (window.location.hostname == "mtgatracker.github.io") {
   console.log("hey, hostname is github.io, setting pagePrefix");
-  pagePrefix = '/mtgatracker-inspector';
+  pagePrefix = '/mtgatracker-inspector-closedbeta-season';
 }
 
 window.pagePrefix = pagePrefix;
